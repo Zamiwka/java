@@ -32,6 +32,16 @@ public class Assignment {
         double d1 = (double) num;
         d1 /= 2;
         System.out.println(d1);
+
+        int a = 8;
+        int b = 0;
+        for (int i = 5; i < a; i++){
+            b += i;  // b = b + i;      b = b - i  --> b -= i;
+            // b = 0 + 5  --> 5
+            // b = 5 + 6  --> 11
+            // b = 11 + 7 -- > 18
+        }
+        System.out.println(b);
     }
 }
 
