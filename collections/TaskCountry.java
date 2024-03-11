@@ -27,5 +27,16 @@ public class TaskCountry {
 
 
         System.out.println("Countries ending with 'stan': " + countriesEndingWithStan);
-    }
+
+     System.out.println(countriesEndingWithStan);
+
+    ArrayList<String> countries2 = new ArrayList<>(countriesEndingWithStan);
+
+
+        System.out.println("spisok stran 2:");
+        System.out.println(countries2);
+
+}
+
+
 }
