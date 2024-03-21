@@ -79,6 +79,49 @@ public class Map1 {
         boolean bTeen = (b>= 13 && b <=19);
         return(aTeen && !bTeen) || (!aTeen && bTeen);
     }
+    public  static String delDel(String str) {
+        if (str.length()>=4 && str.substring(1 ,4).equals("del")) {
+            return str.substring(0 ,1) + str.substring(4);
+
+        }
+        return str;
+    }
+    public static boolean mixStart(String str) {
+        if (str.length()<3) return false;
+        String two = str.substring(1,3);
+        if(two.equals("ix")) {
+            return true;
+        } else {
+            return false;
+
+        }
+
+    }
+    public static String startOz(String str) {
+        String result ="";
+        if(str.length() >= 1 && str.charAt(0)=='o') {
+            result = result + str.charAt(0);
+
+        }
+        if (str.length() >=2 && str.charAt(1) == 'z'){
+            result = result + str.charAt(1);
+
+        }
+        return result;
+
+    }
+    public static int close10(int a, int b) {
+        int diffA = Math.abs(a - 10);
+        int diffB = Math.abs(b - 10);
+        if(diffA < diffB) {
+            return a;
+        }
+        if(diffB < diffA) {
+            return b;
+        }
+        return 0;// i.e. diffA == diffB
+    }
+
 
 
 
