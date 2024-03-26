@@ -12,6 +12,7 @@ public class Usluga {
     public String location;
     public int number;
 
+
     @Override
     public String toString() {
         return "Usluga{" +
