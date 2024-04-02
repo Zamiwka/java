@@ -21,12 +21,18 @@ public class Dom {
     }
 
     public Dom(String type1, int kvm22, int jiteli1, int rooms1){
-        type = type1;
-        kvm2 = kvm22;
-        jiteli = jiteli1;
-        rooms = rooms1;
+        this.type = type1;
+        this.kvm2 = kvm22;
+        this.jiteli = jiteli1;
+        this.rooms = rooms1;
 
 
+
+
+    }
+    public Dom(String type,int kvm2){
+        this.type = type;
+        this.kvm2 = kvm2;
 
 
     }
