@@ -10,7 +10,7 @@ public class Usluga {
     public float bazovyiPrice;
     public float dopPrice;
     public String location;
-    public int number;
+    private int number;
 
 
     @Override
