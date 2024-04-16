@@ -37,10 +37,10 @@ public class Cinema1 {
     public String toString() {
         return "Cinema1{" +
                 "name='" + name + '\'' +
-                ", god=" + god +
-                ", gonorar=" + gonorar +
-                ", akteri='" + akteri + '\'' +
-                "gonorar='" + gonorar + '\'' +
+                ", god =" + god +
+                ", gonorar =" + gonorar +
+                ", akteri ='" + akteri + '\'' +
+                "gonorar ='" + gonorar + '\'' +
                 '}';
     }
 }
